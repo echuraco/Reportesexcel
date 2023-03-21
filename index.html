@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte - GLPI</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZTEm+6tCkXQvWnVRDy0" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #333;
+      color: white;
+    }
+    
+    .form-container {
+      background-color: #007bff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    
+    #submit-btn {
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+    
+    footer {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .emoji {
+      font-size: 2rem;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="GLPI logo" height="30" class="d-inline-block align-top">
+          Soporte - GLPI
+        </a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="#" class="form-container">
+            <h2>Imprimir Orden de Servicio</h2>
+            <div class="form-group">
+              <label for="caso-input">Ingrese número de Caso:</label>
+              <input type="text" class="form-control" id="caso-input">
+            </div>
+            <button type="submit" class="btn btn-success" id="submit-btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Hecho con <span class="emoji">&#x2764;</span> por Edison Churaco</p>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper-base.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZTEm+6tCkXQvWnVRDy0" crossorigin="anonymous"></script>
+</body>
+</html>
