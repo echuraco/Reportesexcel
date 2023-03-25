@@ -19,3 +19,9 @@ Se generar un excel con el nombre OS_numero de ticket con la siguiente informaci
  Cuerpo del texto de solucion sin HTML
  Anexos evidencia de archivos atados al ticket no imagenes solo nombres
  
+ Realizado por Edison Churaco
+ Cabritos soporte-glpi
+ https://www.facebook.com/profile.php?id=100075672595170
+ Su colaboracion con este contenido me ayudara a seguir subiendo mas contenido 
+ Gracias
+ 
