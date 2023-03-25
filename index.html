@@ -39,8 +39,11 @@
         <nav class="navbar navbar-dark bg-dark">
           <div class="container">
             <h1 class="text-center">Soporte - GLPI</h1>
-            <h2 class="text-center"> Ejemplo de ilustracion (Demo)</h2>
+            <h2 class="text-center"> Ejemplo de ilustracion (DEMO)-  Orden de servicio</h2>
+            <p>Una orden de servicio es un documento que se utiliza para describir los detalles de un trabajo que se llevará a cabo. Esta orden de servicio puede incluir información sobre el trabajo a realizar, los materiales necesarios, los plazos de entrega y otros aspectos del trabajo.</p>
+
           </div>
+          
         </nav>
       </header>
   
@@ -48,18 +51,27 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form action="GenDocumentos.php" class="form-container">
+          <form action="GenDocumentos.php" class="form-container" method="get">
             <h2>Imprimir Orden de Servicio</h2>
             <div class="form-group">
               <label for="caso-input">Ingrese número de Caso:</label>
-              <input type="text" class="form-control" id="Id">
+              <input type="text" class="form-control" id="Id" name="Id">
             </div>
             <button type="submit" class="btn btn-success" id="submit-btn">Enviar</button>
           </form>
+          <div class="alert alert-warning" role="alert">
+            <strong>Agradecemos tu colaboracion :</strong> con tus donativos y asi seguiremos subiendo mas contenido gratuito..
         </div>
       </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>Atención:</strong> Para usar este código, asegúrate de cambiar los parámetros de conexión de la base de datos - GLPI.
+      </div>
+      
     </div>
   </main>
+
+      
+  
   
   <footer>
     <p>Hecho con <span class="emoji">&#x2764;</span> por Edison Churaco</p>
